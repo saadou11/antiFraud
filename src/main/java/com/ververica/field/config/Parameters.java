@@ -50,16 +50,6 @@ public class Parameters {
 
   public static final Param<String> OFFSET = Param.string("offset", "latest");
 
-  // GCP PubSub:
-  public static final Param<String> GCP_PROJECT_NAME = Param.string("gcp-project", "da-fe-212612");
-  public static final Param<String> GCP_PUBSUB_RULES_SUBSCRIPTION =
-      Param.string("pubsub-rules", "rules-demo");
-  public static final Param<String> GCP_PUBSUB_ALERTS_SUBSCRIPTION =
-      Param.string("pubsub-alerts", "alerts-demo");
-  public static final Param<String> GCP_PUBSUB_LATENCY_SUBSCRIPTION =
-      Param.string("pubsub-latency", "latency-demo");
-  public static final Param<String> GCP_PUBSUB_RULES_EXPORT_SUBSCRIPTION =
-      Param.string("pubsub-rules-export", "current-rules-demo");
 
   // Socket
   public static final Param<Integer> SOCKET_PORT = Param.integer("pubsub-rules-export", 9999);
